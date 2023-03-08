@@ -1,0 +1,38 @@
+/* 登录框样式 */
+.loginClass{
+    margin-left: 45%;
+    margin-top: 13%;
+}
+
+
+/* 登录页面的标题 */
+::v-deep .loginH2{
+    margin-left: 20%;
+}
+/* 登录按钮每行100% */
+.loginBotton{
+    width: 100%;
+}
+/* "还没有账号？点击注册" 放到最左侧  */
+.el-button+.el-button, .el-checkbox.is-bordered+.el-checkbox.is-bordered{
+    margin-left: 0px;
+}
+/* login背景图片 */
+.login{
+    background: url(../../assets/img/petbg.jpg);
+    height: 100%;
+    background-size: cover;
+}
+/* 注册框样式 */
+.regClass{
+    margin-left: 45%;
+    margin-top: 13%;
+}
+/* 取消按钮放到最右侧 */
+.resetClass{
+    float: right;
+}
+
+.el-upload__tip{
+    margin-top: 0;
+}

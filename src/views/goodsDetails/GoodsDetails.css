@@ -1,0 +1,28 @@
+
+.goodsDetails{
+    height: 100%;
+}
+
+.box-card{
+    height: 100%;
+}
+
+/* 商品标题样式 */
+.goodsTitle{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* 商品标题库存价格间距 */
+.goodsInfo{
+    margin-top: 10px;
+}
+
+.introduce{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.el-input-number{
+    margin-bottom: 35px !important;
+}
